@@ -7,18 +7,32 @@
 .prevdiv{
     height: 17px;
     border: solid rgb(223, 51, 51) 2px;
+    margin-bottom: 78px;
 }
 .navbar{ 
     position: sticky;
-    top:250px;
+    top:0;
+
     border: solid rgb(76, 216, 76) 2px;
     height: 47px;
    
 }
-.div3{
-    margin-top:1500px;
-    height: 17px;
-    border: solid blue 2px;
-    
+.navbarcontent{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    width: 100px;
+}
+.brand{
+    width: 300px;
 }
 
+.countbox{
+    margin-top: 80px;
+    margin-left: 140px;
+
+    width: 60px;
+    border: solid black 2px;
+
+}
