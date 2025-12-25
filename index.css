@@ -1,0 +1,24 @@
+/* body{
+    width: 1400px;
+    height: 7800px;
+    border: solid rgb(14, 9, 24) 2px;
+} */
+
+.prevdiv{
+    height: 17px;
+    border: solid rgb(223, 51, 51) 2px;
+}
+.navbar{ 
+    position: sticky;
+    top:250px;
+    border: solid rgb(76, 216, 76) 2px;
+    height: 47px;
+   
+}
+.div3{
+    margin-top:1500px;
+    height: 17px;
+    border: solid blue 2px;
+    
+}
+
