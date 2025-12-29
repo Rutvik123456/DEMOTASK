@@ -1,0 +1,93 @@
+
+.container1{
+  width: 98vw;
+  padding: 55vh 0;
+
+  position: relative;
+  display: flex;
+
+}
+
+.text{
+    position: absolute;
+
+    width: 61.1%;
+    height: 35.3%;
+    top: 15.96%;
+    left: 2.70%;
+
+    font-family:  Helvetica;
+    font-weight: 400;
+    font-size: 4.5rem;
+
+   
+}
+
+@media (max-width: 684px) {
+  .text {
+    font-size: 3em;
+  }
+}
+
+.image1 img{
+
+    position: absolute;
+
+    top: 0%;
+    left: 66.80%;
+
+    width: 22.91%;
+    height: 70.25%;
+}
+.badge{
+    position: absolute;
+
+    padding: 4px 7px;
+    top: 68.08%;
+    left: 71.86%;
+
+    font-family:Helvetica;
+    color: white;
+    text-align: center;
+    font-weight: 100;    
+    background-color: rgba(255, 102, 20, 1);
+  
+
+}
+.arrow{
+    position: absolute;
+    width: 12.14px;
+    height: 11.94px;
+
+    top: 73.14%;
+    left: 2.77%;
+    border: solid black 2px;
+}
+.navbar{
+    position: sticky;
+    width: 98vw;
+    padding: 23px 0;
+    top: 0%;
+
+    gap: 300px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 102, 20, 1);
+
+}
+
+nav{
+    display: flex;
+}
+
+nav a{
+    width: 155px;
+    text-decoration: none;
+
+    color: rgba(255, 255, 255, 1);
+    
+    font-weight: 400;
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 25.4px;
+}
